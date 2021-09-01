@@ -1,6 +1,9 @@
 /* ARROW STYLES START */
 
 .carousel__button {
+    width: 50px;
+    height: 75px;
+
     padding: 19px 0;
     background-color: white;
     border: none;
@@ -28,19 +31,19 @@
 }
 
 .arrow-left-top {
-    top: 0;
+    top: 25%;
 }
 
 .arrow-left-bottom {
-    bottom: 0;
+    bottom: 25%;
 }
 
 .arrow-right-top {
-    top: 0;
+    top: 25%;
 }
 
 .arrow-right-bottom {
-    bottom: 0;
+    bottom: 25%;
 }
 
 /* ARROW STYLES END */
