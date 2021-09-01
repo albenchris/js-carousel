@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="carousel">
-        <button class="carousel__button">
+        <button class="carousel__button carousel__button--left">
             <div class="arrow-left-top"></div>
             <div class="arrow-left-bottom"></div>
         </button>
@@ -20,21 +20,27 @@
         <div class="carousel__track-container">
             <ul class="carousel__track">
                 <li class="carousel__slide">
-                    <img src='https://picsum.photos/id/237/200/300' alt='puppy' />
+                    <img class="carousel__image" src='https://picsum.photos/id/237/600/900' alt='puppy' />
                 </li>
                 <li class="carousel__slide">
-                    <img src='https://picsum.photos/id/1060/200/300' alt='coffee' />
+                    <img class="carousel__image" src='https://picsum.photos/id/1060/600/900' alt='coffee' />
                 </li>
                 <li class="carousel__slide">
-                    <img src='https://picsum.photos/id/1079/200/300' alt='circle made of light' />
+                    <img class="carousel__image" src='https://picsum.photos/id/1079/600/900' alt='circle made of light' />
                 </li>
             </ul>
         </div>
 
-        <button class="carousel__button">
+        <button class="carousel__button carousel__button--right">
             <div class="arrow-right-top"></div>
             <div class="arrow-right-bottom"></div>
         </button>
+
+        <div class="carousel__nav">
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+        </div>
     </div>
 </body>
 </html>
