@@ -1,0 +1,47 @@
+/* ARROW STYLES START */
+
+.carousel__button {
+    padding: 19px 0;
+    background-color: white;
+    border: none;
+    position: relative;
+}
+
+.arrow-left-top,
+.arrow-left-bottom,
+.arrow-right-top,
+.arrow-right-bottom {
+    height: 5px;
+    width: 50px;
+    background-color: rgb(172, 172, 172);
+    position: absolute;
+}
+
+.arrow-left-top,
+.arrow-right-bottom {
+    transform: rotate(135deg);
+}
+
+.arrow-left-bottom,
+.arrow-right-top {
+    transform: rotate(45deg);
+}
+
+.arrow-left-top {
+    top: 0;
+}
+
+.arrow-left-bottom {
+    bottom: 0;
+}
+
+.arrow-right-top {
+    top: 0;
+}
+
+.arrow-right-bottom {
+    bottom: 0;
+}
+
+/* ARROW STYLES END */
+
