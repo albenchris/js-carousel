@@ -46,6 +46,27 @@
     right: -50px;
 }
 
+.carousel__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.carousel__indicator {
+    margin: 0 6px;
+    width: 14px;
+    height: 14px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.carousel__indicator.current-slide {
+    background: rgba(0, 0, 0, 0.8);
+}
+
 @media screen and (min-width: 700px) {
     .carousel {
         height: 800px;
